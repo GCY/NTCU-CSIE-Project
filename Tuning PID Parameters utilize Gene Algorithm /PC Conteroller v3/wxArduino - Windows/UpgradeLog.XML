@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="wxArduino">
+</Property><Property Name="方案檔" Value="C:\Users\gcy\Desktop\wxArduino - Windows\wxArduino.sln">
+</Property><Property Name="Date" Value="2014年4月19日">
+</Property><Property Name="Time" Value="下午 13:59">
+</Property></Properties><Event ErrorLevel="0" Project="wxArduino" Source="wxArduino.vcproj" Description="Converting project file 'C:\Users\gcy\Desktop\wxArduino - Windows\wxArduino.vcproj'.">
+</Event><Event ErrorLevel="1" Project="wxArduino" Source="wxArduino.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="wxArduino" Source="wxArduino.vcproj" Description="Done converting to new project file 'C:\Users\gcy\Desktop\wxArduino - Windows\wxArduino.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="wxArduino" Source="wxArduino.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="wxArduino.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="wxArduino.sln" Description="Converted">
+</Event></UpgradeLog>
