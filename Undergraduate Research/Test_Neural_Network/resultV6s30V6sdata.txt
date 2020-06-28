@@ -1,0 +1,72 @@
+Action0: Âù¤â¦V¤U¦ùª½
+Total data count: 2000
+Correct data count: 1864
+Wrong data count: 127
+Most wrong data to: 4
+Missing data count: 10
+Correct rate: 93.2%
+
+Action1: ¥ª¤â¦V¤WÅs¦±90«×
+Total data count: 2000
+Correct data count: 794
+Wrong data count: 956
+Most wrong data to: 7
+Missing data count: 308
+Correct rate: 39.7%
+
+Action2: ¥k¤â¦V¤WÅs¦±90«×
+Total data count: 2000
+Correct data count: 810
+Wrong data count: 400
+Most wrong data to: 5
+Missing data count: 790
+Correct rate: 40.5%
+
+Action3: Âù¤â¦V¤WÅs¦±90«×
+Total data count: 2000
+Correct data count: 2000
+Wrong data count: 3
+Most wrong data to: 6
+Missing data count: 0
+Correct rate: 100%
+
+Action4: Âù¤â¦V¤UÅs¦±90«×
+Total data count: 2000
+Correct data count: 1915
+Wrong data count: 75
+Most wrong data to: 0
+Missing data count: 15
+Correct rate: 95.75%
+
+Action5: Âù¤â¤ô¥­¦ùª½
+Total data count: 2000
+Correct data count: 1942
+Wrong data count: 56
+Most wrong data to: 6
+Missing data count: 8
+Correct rate: 97.1%
+
+Action6: Âù¤â¦V¤W¦ùª½
+Total data count: 2000
+Correct data count: 1909
+Wrong data count: 84
+Most wrong data to: 5
+Missing data count: 11
+Correct rate: 95.45%
+
+Action7: ¥ª¤W¥k¤U
+Total data count: 2000
+Correct data count: 2000
+Wrong data count: 322
+Most wrong data to: 6
+Missing data count: 0
+Correct rate: 100%
+
+Action8: ¥k¤W¥ª¤U
+Total data count: 2000
+Correct data count: 2000
+Wrong data count: 5
+Most wrong data to: 5
+Missing data count: 0
+Correct rate: 100%
+

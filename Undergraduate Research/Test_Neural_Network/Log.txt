@@ -1,0 +1,4 @@
+1. 讀取 data/dataset.dat 的內容
+   並逐項使用 data/neural_network.xml 計算
+   比對類神經網路的誤差
+   結果輸出至 data/result.txt

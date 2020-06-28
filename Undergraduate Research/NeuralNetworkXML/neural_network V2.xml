@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">leftElbow</InputName>
+            <InputName Index="2">leftShoulder</InputName>
+            <InputName Index="3">rightElbow</InputName>
+            <InputName Index="4">rightShoulder</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1">degree</InputUnits>
+            <InputUnits Index="2">degree</InputUnits>
+            <InputUnits Index="3">degree</InputUnits>
+            <InputUnits Index="4">degree</InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+            <InputDescription Index="2"></InputDescription>
+            <InputDescription Index="3"></InputDescription>
+            <InputDescription Index="4"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">action_1</OutputName>
+            <OutputName Index="2">action_2</OutputName>
+            <OutputName Index="3">action_3</OutputName>
+            <OutputName Index="4">action_4</OutputName>
+            <OutputName Index="5">action_5</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+            <OutputUnits Index="2"></OutputUnits>
+            <OutputUnits Index="3"></OutputUnits>
+            <OutputUnits Index="4"></OutputUnits>
+            <OutputUnits Index="5"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+            <OutputDescription Index="2"></OutputDescription>
+            <OutputDescription Index="3"></OutputDescription>
+            <OutputDescription Index="4"></OutputDescription>
+            <OutputDescription Index="5"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <MultilayerPerceptron Version="4">
+        <Architecture>4 10 5</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>11538.2 4285.54 23659.6 -5349.56 17986.5 -4231.88 2958.47 1695.31 19802.3 2960.6 -15035.2 -6439.14 5434.57 14301.8 -8988.36 -5642.95 -8028.86 19427.8 3572.96 1387.68 7554.17 -6251.19 -19497.9 25572.2 -29176 9949.74 -5427.91 -2018.78 -1722.07 -875.576 -15212.3 -1002.71 -12776.2 1116.17 -10373.7 -8669.89 5141.28 369.189 -1940.33 1744.34 -1546.5 -10544.5 2250.49 -17187.6 22.2698 6506.09 -2584.28 -1090.77 -1780.44 -499.297 2120.62 0.00205477 -1497.62 -2274.53 0.00948778 -0.471371 -5114.11 7.88507e-008 -1598.28 -1498.1 -879.31 -2041.73 0.497993 3439.66 969.472 -0.0126163 0.468442 7003.8 3.6081e-007 417.455 3439.65 -3575.15 110.7 -4.76726e-005 2971.25 2594.84 0.00312823 0.00293009 -1538.4 2.93912e-007 -1594.69 2971.75 2428.35 -1343.24 -0.5 -970.061 -6770.79 -1.75362e-007 -8.69452e-008 -2326.63 -0.499614 1335.77 -970.061 -1765.15 4886.36 6.18078e-008 -1485.3 8223.1 3.46586e-007 -3.09698e-007 -5503.17 0.499614 -2604.61 -1485.3 6235.8</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>53.3355 -7.33782 60.8357 -7.88553</Minimums>
+        <Maximums>180.069 134.974 180.072 133.206</Maximums>
+        <Means>156.249 46.2674 157.591 43.4638</Means>
+        <StandardDeviations>37.426 32.9923 31.2339 35.1565</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>-1 -1 -1 -1 -1</Minimums>
+        <Maximums>1 1 1 1 1</Maximums>
+        <Means>0 0 0 0 0</Means>
+        <StandardDeviations>1 1 1 1 1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <ScalingLayerFlag>1</ScalingLayerFlag>
+    <UnscalingLayerFlag>0</UnscalingLayerFlag>
+    <ProbabilisticLayerFlag>0</ProbabilisticLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>
